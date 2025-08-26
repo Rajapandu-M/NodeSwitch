@@ -8,13 +8,46 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="327dp"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/switch1_button_id"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/circle_shape_background"
+        android:text="Button 1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/switch2_button_id"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/circle_shape_background"
+        android:text="Button 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/switch3_button_id"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/circle_shape_background"
+        android:text="Button 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1_button_id" />
+
+    <Button
+        android:id="@+id/switch4_button_id"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/circle_shape_background"
+        android:text="Button 4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch2_button_id" />
 </androidx.constraintlayout.widget.ConstraintLayout>
