@@ -15,8 +15,10 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/circle_shape_background"
         android:text="Button 1"
+        android:textColor="@android:color/white"
+        style="@android:style/Widget.Button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"  />
 
     <Button
         android:id="@+id/switch2_button_id"
